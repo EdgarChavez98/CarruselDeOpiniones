@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background-color: #dadaff;
+}
+
+.titulo{
+    display: block;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 50px auto 30px auto;
+    color: #005ac2;
+}
+
+.contenedor-madre{
+    width: 50rem;
+    height: fit-content;
+    text-align: center;
+    margin:  2rem auto;
+    padding: 1rem;
+    background-color: #ededed;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px #555555b9;
+}
+
+.contenedor-img{
+    display: block;
+    margin: 3rem auto;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    box-shadow: 8px -5px #0077ff;
+    overflow: hidden;
+}
+
+.contenedor-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.nombre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #006c86;
+}
+
+.profesion{
+    font-family: 'Calibri';
+    font-weight: 100;
+    color: #00899b;
+}
+
+.opinion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #555555;
+}
+
+.flecha{
+    background: none;
+    font-family: Arial;
+    font-size: 30px;
+    color:#006c86;
+    border: solid 1px #ededed;
+    margin: 1rem 1rem;
+}
+.flecha:hover{
+    border: solid 1px #006c86;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.boton-final{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 1.5rem;
+    border:solid 2px #ededed;
+    color: #333333;
+}
+
+.boton-final:hover{
+    
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: #54517c;
+    color: #ededed;
+    transition: 400ms;
+}
